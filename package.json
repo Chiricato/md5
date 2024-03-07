@@ -1,6 +1,6 @@
 {
   "name": "tan-md5",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "title": "JavaScript MD5",
   "description": "JavaScript MD5 implementation. Compatible with server-side environments like Node.js, module loaders like RequireJS, Browserify or webpack and all web browsers.",
   "keywords": [
@@ -9,13 +9,18 @@
   ],
   "homepage": "https://github.com/Chiricato/md5",
   "author": {
-    "name": "Chiricato",
+    "name": "Chiricato"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Chiricato/md5.git"
   },
   "license": "MIT",
+  "dependencies": {
+    "charenc": "0.0.2",
+    "crypt": "0.0.2",
+    "is-buffer": "~1.1.6"
+  },
   "devDependencies": {
     "chai": "4",
     "eslint": "7",
